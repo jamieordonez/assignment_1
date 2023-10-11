@@ -1,1 +1,3 @@
 # assignment_1
+
+#The goal of this project is to compare nominal GDP of all countries. I got the data through the Wikipedia page https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal) using Wikipedia-API https://pypi.org/project/Wikipedia-API/. Among my variables, country_territory (country or territory) and un_region (region as classified by the United Nations) are strings, and forecast (predicted nominal GDP) and year (always 2023) are integers. Because this is forecasted data, the issue is that it may be innaccurate compared to the accuracy of collected data (even though it's based on predicting models to ensure ballpark accuracy). According to Wikipedia, text is available under the Creative Commons Attribution-ShareAlike License 4.0.
